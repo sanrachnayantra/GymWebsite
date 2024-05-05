@@ -1,0 +1,345 @@
+ <!--Video Section-->
+
+    <section class="section video" aria-label="video">
+        <div class="container">
+
+            <div class="video-card has-before has-bg-image" style="background-image: url('video-banner.jpg');">
+
+                <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+                <button class="play-btn" aria-label="play video">
+                    <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="btn-link has-before">Watch More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Class Section-->
+
+    <section class="class bg-dark has-bg-image" id="class" aria-label="class" style="background-image: url('classes-bg.png');">
+        <div class="container">
+            <p class="section-subtitle">Our Classes</p>
+            <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+            <ul class="class-list has-scrollbar">
+                <li class="scrollbar-item">
+                    <div class="class-card">
+                        <figure class="card-banner img-holder" style="--width:416 ; --height:240 ;">
+                            <img src="class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                                class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+                            <div class="title-wrapper">
+                                <img src="class-icon-1.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Weight Lifting</a>
+                                </h3>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, praesentium.
+                            </p>
+                            <div class="card-progress">
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+                                    <span class="progress-value">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="scrollbar-item">
+                    <div class="class-card">
+                        <figure class="card-banner img-holder" style="--width:416 ; --height:240 ;">
+                            <img src="class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                                class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+                            <div class="title-wrapper">
+                                <img src="class-icon-2.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Cardio & Strenght</a>
+                                </h3>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, praesentium.
+                            </p>
+                            <div class="card-progress">
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+                                    <span class="progress-value">70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="scrollbar-item">
+                    <div class="class-card">
+                        <figure class="card-banner img-holder" style="--width:416 ; --height:240 ;">
+                            <img src="class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                                class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+                            <div class="title-wrapper">
+                                <img src="class-icon-3.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Proper Yoga</a>
+                                </h3>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, praesentium.
+                            </p>
+                            <div class="card-progress">
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+                                    <span class="progress-value">90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="scrollbar-item">
+                    <div class="class-card">
+                        <figure class="card-banner img-holder" style="--width:416 ; --height:240 ;">
+                            <img src="class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                                class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+                            <div class="title-wrapper">
+                                <img src="class-icon-4.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">The Fitness Pack</a>
+                                </h3>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, praesentium.
+                            </p>
+                            <div class="card-progress">
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+                                    <span class="progress-value">60%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Now add multiple items -->
+            </ul>
+        </div>
+    </section>
+
+
+    <!--Blog Section-->
+
+    <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+            <p class="section-subtitle">Our News</p>
+            <h2 class="h2 secction-title text-center">Latest Blog Feed</h2>
+            <ul class="blog-list has-scrollbar">
+                <li class="scrollbar-item">
+                    <div class="blog-card">
+                        <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                            <img src="blog-1.jpg" width="440" height="270" alt="Going to the gym for the first time"
+                                class="img-cover">
+                            <time datetime="2024-05-05" class="card-meta">5 May 2024</time>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="h3">
+                                <a href="#" class="card-title">Going to the gym for the first time</a>
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sunt
+                                harum blanditiis recusandae, facere vero!</p>
+                            <a href="" class="btn-link has-before">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="scrollbar-item">
+                    <div class="blog-card">
+                        <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                            <img src="blog-2.jpg" width="440" height="270" alt="Parturirnt accusman cacus pulja magna"
+                                class="img-cover">
+                            <time datetime="2024-05-05" class="card-meta">5 May 2024</time>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="h3">
+                                <a href="#" class="card-title">Parturirnt accusman cacus pulja magna</a>
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sunt
+                                harum blanditiis recusandae, facere vero!</p>
+                            <a href="" class="btn-link has-before">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="scrollbar-item">
+                    <div class="blog-card">
+                        <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                            <img src="blog-3.jpg" width="440" height="270" alt="Parturirnt accusman cacus pulja magna"
+                                class="img-cover">
+                            <time datetime="2024-05-05" class="card-meta">5 May 2024</time>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="h3">
+                                <a href="#" class="card-title">Parturirnt accusman cacus pulja magna</a>
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sunt
+                                harum blanditiis recusandae, facere vero!</p>
+                            <a href="" class="btn-link has-before">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- add more blogs -->
+            </ul>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="section footer-top bg-dark has-bg-image" style="background-image: url('footer-bg.png');">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+                        <span class="span">Fitlife</span>
+                    </a>
+                    <p class="footer-brand-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, dolorem.
+                    </p>
+                    <div class="wrapper">
+                        <img src="img" width="34" height="34" loading="lazy" alt="Clock">
+                        <ul class="footer-brand-list">
+                            <li>
+                                <p class="footer-brand-title">Monday - Friday</p>
+                                <p class="footer-brand-text">7:00a.m - 2:00p.m</p>
+                            </li>
+                            <li>
+                                <p class="footer-brand-title">Saturday - Sunday</p>
+                                <p class="footer-brand-text">7:00a.m - 2:00p.m</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title has-before">Our Links</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Classes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title has-before"></p>
+                    </li>
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="location" aria-hidden="true">Contact Us</ion-icon>
+                        </div>
+                        <address class="address footer-link">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </address>
+                    </li>
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                        </div>
+                        <div>
+                            <a href="tel:1800XXXXXXXX" class="footer-link">1800XXXXXXXX</a>
+                        </div>
+                    </li>
+                    <li class="footer-list-item">
+                        <div class="icon">
+                            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                        </div>
+                        <div>
+                            <a href="mailto:info@gmail.com" class="footer-link">info@gmail.com</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="class footer-list-title has-before">Our Newsletter</p>
+                    </li>
+                    <li>
+                        <form action="" class="footer-form">
+                            <input type="email" name="email_address" aria-label="email" placeholder="Email Address"
+                                required class="input-field">
+                            <button type="submit" class="btn btn-primary" aria-label="Submit">
+                                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <ul class="social-link">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2024 All Rights Reserved By <a href="#" class="copyright-link">Sanrachna Yantra</a>
+                </p>
+                <ul class="footer-bottom-list">
+                    <li>
+                        <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Back to Top-->
+
+    <a href="#top" class="back-top-bn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
